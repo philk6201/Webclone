@@ -21,10 +21,10 @@ body {
 }
 
 .simplesitepage {
-    background-image: url("containerbackground.jpg");
+    background-image: url("image/containerbackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 820px;
     background-position: center;
 }
 
@@ -69,12 +69,14 @@ body {
 .navbar-brand a {
     color: rgb(183, 32, 38);
     text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
 }
 
 .navbar-list {
     display: flex;
     font-size: 32px;
-    width: 80%;
+    width: 90%;
 }
 
 button.login-buttons {
@@ -90,9 +92,9 @@ button.login-buttons {
     float: left;
     display: block;
     text-align: center;
-    padding: 26px 18px;
+    padding: 30px 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .black-text a {
@@ -110,7 +112,9 @@ button.login-buttons {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 66px;
+    height: 77px;
+    transition: .4s;
+    z-index: 10;
 }
 
 .navbar-buttons {
@@ -140,6 +144,7 @@ span {
 
 .website-making-trial h3 {
     font-style: italic;
+    margin-top: 12px;
 }
 
 button.start-buttons {
@@ -175,7 +180,9 @@ button.start-buttons {
 }
 
 .grid-box-declration {
-    padding: 55px 0px;
+    padding: 19px 0px;
+    width: 85%;
+    margin-left: 100px;
 }
 
 .line {
@@ -185,6 +192,10 @@ button.start-buttons {
     display: inline-block;
     background-color: rgb(187, 22, 0);
     margin: 10px 0px 31px;
+}
+
+.line.footer {
+    border: solid rgb(187, 22, 0) 1px;
 }
 
 .grid-box-template {
@@ -216,7 +227,7 @@ button.start-buttons {
 .grid-box-site-image img {
     /* width: 72%; */
     /* margin-left: 113px; */
-    max-width: 100%;
+    max-width: 94%;
     min-width: 0%;
 }
 
@@ -243,6 +254,7 @@ span h3 {
 .features-declration {
     display: flex;
     font-weight: 300;
+    padding: 10px;
 }
 
 .features-declration img {
@@ -264,13 +276,13 @@ span h3 {
 
 .column {
     line-height: 2;
-    width: 15%;
-    padding: 2% 2% 3% 1%;
+    width: 14%;
+    padding: 2% 0% 0% 0%;
 }
 
 .column.a {
-    width: 34%;
-    padding: 2% 7% 3% 6%;
+    width: 36%;
+    padding: 2% 7% 3% 9%;
 }
 
 
@@ -282,7 +294,10 @@ ul {
 
 .social-sites a {
     color: white;
-    margin: 5%;
+    /* margin: 1%; */
+    font-size: 24px;
+    /* margin-left: -6px; */
+    padding: 3px;
 }
 
 .nav-bar-toggles {
@@ -294,6 +309,9 @@ p {
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
+}
+
+.company-details p {
     line-height: 1.4;
 }
 
@@ -314,7 +332,7 @@ themes page css
 */
 
 .header {
-    height: 50vh;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -324,13 +342,14 @@ themes page css
 .row-heading {
     text-align: center;
     padding: 10%;
-    font-size: 24px;
+    font-size: 40px;
     color: white;
 }
 
 .row-themes-image {
     display: flex;
     width: 100%;
+    padding-bottom: 35px;
 }
 
 .themes-image-declration {
@@ -355,7 +374,7 @@ themes page css
 
 .features-background {
     background-image: url(image/featurespagebg.jpg);
-    height: 50vh;
+    height: 332px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -363,8 +382,16 @@ themes page css
 
 .features-declration-image {
     width: 30%;
-    padding: 2% 3%;
-    margin-left: 25px;
+    padding: 1% 5%;
+    margin-left: 63px;
+}
+
+.features-text {
+    font-weight: bold;
+}
+
+.features-declration-image h3 {
+    padding-bottom: 15px;
 }
 
 
@@ -372,6 +399,10 @@ themes page css
 
 .customer-service {
     background-image: url(customerservicebg.jpg);
+}
+
+.themes-text-style {
+    font-weight: 100;
 }
 
 
@@ -393,7 +424,7 @@ row-faq page css
     border: none;
     text-align: left;
     outline: none;
-    font-size: 22px;
+    font-size: 18px;
     transition: 0.4s;
     border-bottom: solid 1px;
 }
@@ -415,6 +446,7 @@ row-faq page css
     font-size: 17px;
     font-weight: 300;
     line-height: 1.4;
+    padding: 12px;
     color: #383838;
 }
 
@@ -460,7 +492,21 @@ row-faq page css
 
 .customer-service-details {
     text-align: center;
-    padding: 10px;
+    padding: 40px;
+}
+
+button.tablinks-1st-tab {
+    margin: 10px 12px;
+    padding: 14px;
+    font-family: system-ui;
+    font-size: 19px;
+}
+
+button.tablinks-2nd-tab {
+    margin: 10px 12px;
+    padding: 14px;
+    font-family: system-ui;
+    font-size: 19px;
 }
 
 
@@ -528,6 +574,287 @@ th {
 
 /* media query  */
 
+.grid-box-address a {
+    color: black;
+}
+
+.grid-box-address {
+    padding: 31px;
+}
+
+
+/*Booking page*/
+
+.booking-background {
+    background-image: url(image/imagebgbooking.jpg);
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.booking-form {
+    border: solid 1px;
+}
+
+.booking-form {
+    background-color: rgb(255, 255, 255);
+}
+
+.booking-template {
+    width: 42%;
+    margin: 107px 112px 0px;
+    float: left;
+}
+
+.booking-heading {
+    padding: 38px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2f4676;
+}
+
+.form-image img {
+    padding-left: 30px;
+    width: 180px;
+    height: 120px;
+}
+
+.booking-container {
+    display: flex;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+}
+
+.form-group {
+    width: 50%;
+    padding-top: 20px;
+    position: relative;
+    padding: 20px 15px 0 15px;
+}
+
+.form-control {
+    height: 40px;
+    border-radius: 3px;
+    font-family: inherit;
+    padding-left: 28px;
+    font-size: 16px;
+    color: #213d77;
+    appearance: none;
+}
+
+.form-group-part {
+    display: flex;
+}
+
+.form-control.left {
+    width: 100%;
+}
+
+.form-control.right {
+    width: 90%;
+    margin-left: 0;
+}
+
+.form-group.checkbox-selection {
+    width: 100%;
+    color: #2f4676;
+    font-size: 15px;
+}
+
+.form-group .form-level {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.check {
+    height: 40px;
+    width: 50px;
+    background-color: gray;
+}
+
+span.input-checkbox {
+    margin: 12px;
+    font-weight: bolder;
+}
+
+.booking-button-container {
+    display: flex;
+}
+
+.btn {
+    background: #213d77;
+    color: #fff;
+    border: 0 solid transparent;
+    border-radius: 1px;
+    font-weight: 700;
+    width: 100%;
+    height: 42px;
+    font-size: 21px;
+}
+
+.pnr-button {
+    width: 53%;
+}
+
+.chart-vaccency {
+    width: 51%;
+    margin-left: 9px;
+}
+
+.btn img {
+    height: 30px;
+    /* margin-top: 11px; */
+    float: left;
+}
+
+.search-btn {
+    background-color: rgb(251, 121, 43);
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.booking-btn {
+    background-color: rgb(251, 121, 43);
+    width: 46%;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    float: right;
+    /* margin-left: 6px; */
+    margin-right: 23px;
+}
+
+.booking-btn.a {
+    width: 15%;
+    margin-right: 68px;
+}
+
+.form-level {
+    text-align: center;
+}
+
+.form-container-icon {
+    width: 100%;
+    margin-left: 150px;
+}
+
+i.fa.fa-exchange {
+    margin-top: 9px;
+    border-radius: 50%;
+    background: #f0f7fa;
+    font-size: 17px;
+    border: solid 1px;
+}
+
+span.icon-exchange {
+    margin-left: 144px;
+}
+
+i.fa-solid.fa-location-arrow {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 4px;
+    color: #213d77;
+}
+
+i.fa-solid.fa-location-dot {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 5px;
+    color: #213d77;
+}
+
+i.fa-solid.fa-table-cells-large {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 5px;
+    color: #213d77;
+}
+
+i.fa-solid.fa-briefcase {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 5px;
+    color: #213d77;
+}
+
+input[type=checkbox] {
+    background-color: #FA9E57;
+}
+
+i.fa-solid.fa-circle-xmark {
+    float: right;
+    font-size: 22px;
+}
+
+.form-part-template {
+    height: 339px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+#general-in {
+    appearance: auto;
+}
+
+#classes-in {
+    appearance: auto;
+}
+
+.railway-heading {
+    font-size: 40px;
+    margin-top: 250px;
+    color: white;
+}
+
+#popid {
+    background-color: rgb(248, 183, 189);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    line-height: 23px;
+    position: fixed;
+    right: 43px;
+    margin-top: 92px;
+    padding: 12px;
+    display: none;
+    font-size: 20px;
+    width: 248px;
+    font-style: oblique;
+}
+
+.form-data-store {
+    width: 47%;
+    padding: 24px;
+    margin-left: 77px;
+}
+
+.booking {
+    text-align: center;
+    font-size: 44px;
+    color: rebeccapurple;
+}
+
+div#myData {
+    margin: 73px;
+}
+
+thead {
+    background-color: red;
+}
+
 @media screen and (max-width:1200px) {
     * {
         margin: 0px;
@@ -582,7 +909,7 @@ th {
     .grid-declration {
         line-height: 2;
         padding: 0px 0px;
-        text-align: initial;
+        text-align: center;
         font-weight: 200;
         width: 100%;
     }
@@ -719,10 +1046,12 @@ th {
     }
     .grid-box-heading {
         font-size: 15px;
-        margin-top: 103px;
+        margin-top: 4px;
     }
     .grid-box-declration {
         padding: 0px;
+        width: 100%;
+        margin-left: 0px;
     }
     p {
         font-family: Roboto;
@@ -732,6 +1061,7 @@ th {
     }
     .site-declration {
         padding: 0px 20px;
+        text-align: initial;
     }
     .tabcontent {
         width: 100%;
@@ -739,5 +1069,95 @@ th {
     .panel.scroll {
         overflow: scroll;
         display: block;
+    }
+    .social-sites {
+        float: left;
+        margin-left: 24px;
+    }
+    button.tablinks-2nd-tab {
+        padding: 20px;
+        width: 94%;
+    }
+    .form-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .booking-template {
+        width: 100%;
+        margin: 0px;
+    }
+    .booking-background {
+        height: 817px;
+    }
+    .booking-form {
+        width: 100%;
+        height: 669px;
+    }
+    .form-part-template {
+        height: 339px;
+    }
+    .btn img {
+        width: 20px;
+    }
+    .booking-button-container {
+        width: 100%;
+        margin: 84px 0px 0px;
+    }
+    .form-group {
+        width: 93%;
+        padding-top: 20px;
+        position: relative;
+        padding: 20px 27px 6px 52px;
+    }
+    .form-group .form-level {
+        position: absolute;
+        top: 0;
+        left: 52px;
+    }
+    .form-control.right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .booking-heading {
+        padding: 42px 0px;
+        font-size: 17px;
+    }
+    div#myData {
+        margin: 31px;
+        overflow: scroll;
+    }
+    .booking {
+        margin: 34px 8px;
+        font-size: 21px;
+    }
+    span.input-checkbox {
+        font-weight: bolder;
+        padding: 0px 12px 0px;
+    }
+    .form-image img {
+        padding-left: 40px;
+        width: 153px;
+        height: 100px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .form-container.button {
+        flex-direction: row;
+        width: 61%;
+    }
+    .search-btn {
+        width: 100%;
+        font-size: 16px;
+    }
+    .booking-btn {
+        width: 97%;
+        font-size: 14px;
+    }
+    .booking-btn.a {
+        width: 44%;
+        font-size: 14px;
+        margin-left: 77px;
+        float: none;
     }
 }

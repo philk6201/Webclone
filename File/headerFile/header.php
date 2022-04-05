@@ -16,13 +16,14 @@
                 <div class="navbar-list">
                     <div class="navbar-brand">
                         <h3>
-                            <a href="./Homepage.php">Simplesite</a></h3>
+                            <a href="./Homepage.php">SimpleSite</a></h3>
                     </div>
                     <div id="nav-items" class="black-text white-text">
                         <a>Try it for free</a>
-                        <a href="./customerservice.php">Customerservice</a>
+                        <a href="./customerservice.php" class="custom" >Customer service</a>
                         <a href="./featurespage.php">Features</a>
                         <a href="./themes.php">Themes</a>
+                        <a href="./booking.php">Booking</a>
                     </div>
                 </div>
                 <div class="navbar-buttons">
@@ -30,7 +31,7 @@
                         <button id="login-buttons" class="login-buttons">LOG IN</button>
                     </div>
                     <div class="language-picker">
-                        <label for="language-picker-select"><img src="globe-grey.jpg"></label>
+                        <label for="language-picker-select"><img src="image/globe-grey.jpg"></label>
                         <div class="dropdown">
                             <a id="language-color-change" href="#">LANGUAGE</a>
                             <div class="dropdown-content">

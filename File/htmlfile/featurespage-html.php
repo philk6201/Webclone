@@ -8,7 +8,7 @@
             <div class="line">
             </div>
             <div class="grid-box-declration">
-                <p>Check out all the great features that are included on your website! SimpleSite provides everything you need to create a beautiful and professional website.</p>
+                <p>Check out all the <span class="features-text"> great features </span> that are included on your website! SimpleSite provides everything you need to create a beautiful and professional website.</p>
             </div>
             <div class="features-image-declration">
                 <div class="features-declration">

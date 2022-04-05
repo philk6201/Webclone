@@ -2,7 +2,7 @@
             <div class="column a">
                 <div class="simple-site">
                     <h3>SIMPLESITE</h3>
-                    <div class="line">
+                    <div class="line footer">
                     </div>
                 </div>
                 <div class="site-declration">
@@ -20,8 +20,7 @@
             <div class="column">
                 <div class="product-on-site">
                     <h3>PRODUCT</h3>
-                    <div class="line">
-                    </div>
+                    <div class="line footer"></div>
                 </div>
                 <div class="product-declration">
                     <ul>
@@ -36,8 +35,7 @@
             <div class="column">
                 <div class="company-policy">
                     <h3>COMPANY</h3>
-                    <div class="line">
-                    </div>
+                    <div class="line footer"></div>
                 </div>
                 <div class="company-policy-declration">
                     <ul>
@@ -50,8 +48,7 @@
             <div class="column">
                 <div class="company-community">
                     <h3>COMMUNITY</h3>
-                    <div class="line">
-                    </div>
+                    <div class="line footer"></div>
                 </div>
                 <div class="community-declration">
                     <ul>

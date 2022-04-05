@@ -9,8 +9,8 @@
         </div>
         <div class="row-tab-subscription-general-use">
             <div class="tab">
-                <button class="tablinks" onclick="opentab(event, 'tab1')">SimpleSite subscriptions and Payment</button>
-                <button class="tablinks" onclick="opentab(event, 'tab2')">General use of SimpleSite</button>
+                <button class="tablinks-1st-tab active" onclick="opentab(event, 'tab1')">SimpleSite subscriptions and Payment</button>
+                <button class="tablinks-2nd-tab" onclick="opentab(event, 'tab2')">General use of SimpleSite</button>
             </div>
             <div id="tab1" class="tabcontent" style="display: block;">
                 <!-- 1st question for subscription -->

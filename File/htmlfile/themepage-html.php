@@ -1,9 +1,9 @@
  <div class="row-heading">
-            <h1>THEMES</h1>
+            <h1>Themes</h1>
         </div>
         <div class=" row grid-box themes">
             <div class="grid-box-heading">
-                <h3>EXAMPLES OF OUR BEAUTIFUL WEBSITE THEMES</h3>
+                <h1>EXAMPLES OF OUR BEAUTIFUL</h1><h3> WEBSITE THEMES</h3>
             </div>
             <div class="line">
             </div>
