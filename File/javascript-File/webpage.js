@@ -27,7 +27,6 @@ function scrollFunction() {
         let navbar = document.getElementById("nav-items");
         navbar.classList.remove('white-text');
         navbar.classList.add('black-text');
-
     } else {
         document.getElementById("rownav-bar").style.backgroundColor = "";
         document.getElementById("rownav-bar").style.boxShadow = "";
@@ -38,14 +37,12 @@ function scrollFunction() {
         document.getElementById("login-buttons").style.borderColor = "";
         document.getElementById("language-color-change").style.color = "";
         document.getElementById("toggles-bgcolor").style.color = "";
-
     }
 }
 // function opentab for simple site subscription and General use of payement .
 /*/
 var i,tabcontent,tablinks
 /*/
-
 function opentab(evt, tab) {
     var i, tabcontent, tablinks;
 
@@ -60,8 +57,6 @@ function opentab(evt, tab) {
     document.getElementById(tab).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-
 window.onload = function() {
         var acc = document.getElementsByClassName("accordion");
         var i;
@@ -159,11 +154,11 @@ function bookingRequired() {
             "Allclasses": reserved,
         };
         saveObject.push(myObj);
-
         localStorage.setItem('user', JSON.stringify(saveObject));
+        location.href = "./data-file.html";
     }
 }
-
+/*bookingDAta-page*/
 function bookingData() {
     location.href = "./data-file.html";
 }

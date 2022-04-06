@@ -795,6 +795,7 @@ input[type=checkbox] {
 i.fa-solid.fa-circle-xmark {
     float: right;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .form-part-template {
@@ -853,6 +854,7 @@ div#myData {
 
 thead {
     background-color: red;
+    color: white;
 }
 
 @media screen and (max-width:1200px) {
@@ -1159,5 +1161,8 @@ thead {
         font-size: 14px;
         margin-left: 77px;
         float: none;
+    }
+    .on-booking-page {
+        text-align: center;
     }
 }
